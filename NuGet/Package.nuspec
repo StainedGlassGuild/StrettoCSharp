@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>%product%</id>
+    <version>%version%</version>
+    <authors>%company%</authors>
+    <description>%description%</description>
+    <copyright>%copyright%</copyright>
+  </metadata>
+  <files>
+      <file src="..\bin\Release\FXGuild.Stretto.*.dll" target="lib\net461" />
+      <file src="..\bin\Release\FXGuild.Stretto.*.pdb" target="lib\sl461" />
+  </files>   
+</package>

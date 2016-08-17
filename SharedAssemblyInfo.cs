@@ -5,5 +5,5 @@
  [assembly: AssemblyCopyright("MIT License - Copyright (c) 2016 FXGuild")]
  [assembly: AssemblyDescription("Musical analysis and generation library")]
  [assembly: AssemblyProduct("FXGuild.Stretto")]
- [assembly: AssemblyVersion("0.0.0.1")]
+ [assembly: AssemblyVersion("0.0.0.2")]
  [assembly: ComVisible(false)]
