@@ -118,6 +118,14 @@
     <CodeContractsAnalysisWarningLevel>3</CodeContractsAnalysisWarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FXGuild.Common.Misc, Version=0.0.1.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FXGuild.Common.0.0.3\lib\net461\FXGuild.Common.Misc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FXGuild.Common.TaskMonitor, Version=0.0.1.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FXGuild.Common.0.0.3\lib\net461\FXGuild.Common.TaskMonitor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -132,6 +140,17 @@
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Theory\DurationValue.cs" />
+    <Compile Include="Theory\MajorMinorQuality.cs" />
+    <Compile Include="Theory\NoteLetter.cs" />
+    <Compile Include="Theory\PerfectDimAugQuality.cs" />
+    <Compile Include="Theory\PitchModifier.cs" />
+    <Compile Include="Theory\Quality.cs" />
+    <Compile Include="Theory\Semitones.cs" />
+    <Compile Include="Theory\TimeSignature.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
